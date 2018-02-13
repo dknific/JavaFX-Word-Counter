@@ -13,7 +13,7 @@ public class ApplicationMethods {
 	//Master function for event listener
 	//-----------------------------------------------------------------------
 	public static void analyzeText(TextArea userInputTextArea, Label totalWordsTarget,
-									Label uniqueWordsTarget, Label totalCharsTarget, VBox wordFrequencyTarget) {
+					Label uniqueWordsTarget, Label totalCharsTarget, VBox wordFrequencyTarget) {
 		
 		String userInputAsOneString = userInputTextArea.getText();
 		countCharsAndUpdateLabel(userInputAsOneString, totalCharsTarget); // <- 1. defined below
